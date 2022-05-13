@@ -55,8 +55,6 @@ body {
 }
 #projects .projectrow {
   font-family: monospace;
-  /* padding-top: 10px;
-  padding-bottom: 10px; */
 }
 
 @media screen and (max-width: 768px) {
