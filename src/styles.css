@@ -1,0 +1,280 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: white;
+  background-color: rgb(2, 18, 29);
+}
+
+/* navbar styling */
+#header .text-edit {
+  font-family: monospace;
+}
+
+/* Styling for About */
+#about {
+  padding: 0px 15px;
+  margin: 30px 20px 20px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-row {
+    margin-top: 50px;
+  }
+}
+
+.cv-button {
+  width: 150px;
+}
+.git-button {
+  margin-left: 10px;
+  width: 150px;
+}
+.about-img {
+  color: rgb(2, 20, 34);
+  height: 300px;
+  width: 300px;
+}
+.heading-img {
+  height: 50px;
+  width: 50px;
+}
+
+/* Styling for Project */
+#projects {
+  margin-top: 100px;
+}
+#projects a {
+  font-size: 18px;
+  text-decoration: underline;
+  margin: 10px;
+}
+#projects h4 {
+  color: #007fff;
+}
+#projects .projectrow {
+  font-family: monospace;
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
+}
+
+@media screen and (max-width: 768px) {
+  #projects {
+    margin-top: 80px;
+    text-align: center;
+    width: 100%;
+  }
+  #projects a {
+    font-size: 11px;
+    margin: 5px;
+  }
+  #projects h4 {
+    font-size: 15px;
+  }
+  #projects h5 {
+    font-size: 13px;
+  }
+  #projects p {
+    font-size: 12px;
+  }
+  .container {
+    margin: 20px auto;
+  }
+  .image {
+    display: block;
+    width: 100%;
+    height: 250px;
+  }
+  .projectrow {
+    padding: 0px 30px;
+    width: auto;
+  }
+  .projects-text {
+    margin-bottom: 30px;
+  }
+  .text-edit {
+    text-align: center;
+    padding: 0px 30px;
+  }
+  .textedit {
+    font-size: 10px;
+  }
+
+}
+
+.text-edit {
+  text-align: center;
+  padding: 0px 15px;
+}
+
+.projects-text {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: black;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.textedit {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.projectrow {
+  padding: 20px 55px;
+  width: 100%;
+}
+
+.textedit h5 {
+  color: #49ff00;
+}
+
+/* Styling for Skills */
+#skills {
+  margin-top: 100px;
+}
+@media screen and (max-width: 768px) {
+  #skills {
+    margin-top: 50px;
+  }
+}
+
+.check {
+  background-color: grey;
+  border-bottom-style: solid;
+  height: 50px;
+  margin: 5px 0px;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  padding: 40px 110px;
+}
+@media screen and (max-width: 768px) {
+  .parent {
+    padding: 20px 55px;
+  }
+}
+
+.grid-item {
+  background-color: rgb(17, 40, 58);
+  height: 50px;
+}
+.skills-img {
+  height: 35px;
+  width: 35px;
+  margin: 10px;
+  float: left;
+}
+.skills-float {
+  margin-top: 10px;
+}
+@media screen and (max-width: 768px) {
+  .skills-float {
+    font-size: 15px;
+  }
+}
+
+/* Styling for Footer */
+
+.footer-image {
+  width: 500px;
+  height: 500px;
+}
+@media screen and (max-width: 768px) {
+  .footer-image {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+.footer-class {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-section {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.footer-edit {
+  float: left;
+  height: 150px;
+  width: 150px;
+  margin-right: 30px;
+}
+
+.footer-div {
+  padding: 20px 55px;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .footer-div {
+    padding: 13px 20px;
+  }
+}
+
+.footer-p {
+  text-align: center;
+  color: gray;
+}
+.footer-img-text {
+  margin-top: 30px;
+}
+.footer-img-text h5 {
+  color: gray;
+}
+
+.footer-note {
+  margin-top: 80px;
+}
+@media screen and (max-width: 768px) {
+  #footer h3 {
+    font-size: 23px;
+  }
+  #footer h5 {
+    font-size: 19px;
+  }
+  .footer-note {
+    margin-top: 45px;
+    text-align: justify;
+  }
+}
